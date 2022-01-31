@@ -1,0 +1,12 @@
+<!--components/article-preview/index.wxml-->
+<view class="container">
+  <image class="poster" src="{{img}}" mode="aspectFill"></image>
+  <view class="article">
+    <view class="title">
+      <text class="title-text">{{title}}</text>
+    </view>
+    <view class="summary">
+      <text class="summary-text">{{summary}}</text>
+    </view>
+  </view>
+</view>
