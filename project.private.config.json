@@ -13,24 +13,6 @@
     "miniprogram": {
       "list": [
         {
-          "id": -1,
-          "name": "db guide",
-          "pathName": "pages/databaseGuide/databaseGuide",
-          "query": ""
-        },
-        {
-          "name": "pages/getOpenId/index",
-          "pathName": "pages/getOpenId/index",
-          "query": "",
-          "scene": null
-        },
-        {
-          "name": "pages/deployService/index",
-          "pathName": "pages/deployService/index",
-          "query": "",
-          "scene": null
-        },
-        {
           "name": "pages/selectRecord/index",
           "pathName": "pages/selectRecord/index",
           "query": "",
@@ -63,6 +45,12 @@
         {
           "name": "",
           "pathName": "pages/lol/lol",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/article/article",
           "query": "",
           "scene": null
         }

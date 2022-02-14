@@ -1,0 +1,20 @@
+<view class="container">
+
+  <!-- 图片 -->
+  <image class="poster" src="{{poster}}" mode="aspectFill"></image>
+
+  <!-- 标题 -->
+  <view class="title-container">
+    <text class="title">{{title}}</text>
+  </view>
+
+  <!-- 分割线 -->
+  <view class="hr" />
+
+  <!-- 文章 -->
+  <view class="article-container">
+    <text class="content">{{content}}</text>
+  </view>
+
+
+</view>

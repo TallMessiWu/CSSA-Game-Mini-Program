@@ -1,5 +1,5 @@
 <!--components/article-preview/index.wxml-->
-<view class="container">
+<view class="container" bind:tap="onClick" data-article-id="98989">
   <image class="poster" src="{{img}}" mode="aspectFill"></image>
   <view class="article">
     <view class="title">
