@@ -2,7 +2,9 @@
   "pages": [
     "pages/home/home",
     "pages/lol/lol",
-    "pages/article/article"
+    "pages/article/article",
+    "pages/heroes/heroes",
+    "pages/history/history"
   ],
   "window": {
     "backgroundColor": "#F6F6F6",
@@ -12,5 +14,29 @@
     "navigationBarTextStyle": "black"
   },
   "sitemapLocation": "sitemap.json",
-  "style": "v2"
+  "style": "v2",
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#DC143C",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "主页",
+        "iconPath": "images/icons/discovery.png",
+        "selectedIconPath": "images/icons/discovery-activated.png"
+      },
+      {
+        "pagePath": "pages/history/history",
+        "text": "战绩",
+        "iconPath": "images/icons/chat.png",
+        "selectedIconPath": "images/icons/chat-activated.png"
+      },
+      {
+        "pagePath": "pages/heroes/heroes",
+        "text": "英雄资料",
+        "iconPath": "images/icons/card.png",
+        "selectedIconPath": "images/icons/card-activated.png"
+      }
+    ]
+  }
 }
